@@ -287,10 +287,15 @@ th{
 
 /* FLYERS */
 p.flyer{
-	margin:2em 15% 1em 15%;
+	margin:1em auto 1em 1em;
 	padding: 0 0 0 0;
 }
 
 p.flyer img{
 	width:100%;
+}
+
+p.flyerauthor{
+	font-size: 1.2em;
+	font-style :italic;
 }
