@@ -117,7 +117,7 @@ nav{
 }
 
 
-nav img{
+nav img, img.small{
 	height:1.5em;
 	vertical-align : middle;
 	margin-right:0.2em;
@@ -271,7 +271,7 @@ th, td{
     border: 1px solid;    
 }
 
-th{
+th, caption{
 	color: #fcfcfc;
 	background-color:#14141f;
 	font-weight: bold;
