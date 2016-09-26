@@ -254,15 +254,18 @@ article.nextEvent h2{
 	font-weight : bold;
 }
 
-table, th, td {
-}
 
 table{
 	margin: 1em 0.5em 1em 0.5em;
 	padding : 0 0 0 0;
 	border-collapse: collapse;
-    border: 2px solid;
+    border: solid 2px inherit;
     border-radius : 0.5em;
+}
+
+*.centered{
+	margin-left:auto;
+	margin-right:auto;	
 }
 
 th, td{
@@ -300,6 +303,15 @@ p.flyerauthor{
 	font-style :italic;
 }
 
+p.message{
+	background-color : #73B84B;
+	color: #fcfcfc;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 0.5em;
+	
+}
 section.announce{
 	background-color : #73B84B;
 	color: #fcfcfc;
@@ -319,4 +331,9 @@ section.announce a{
 	color: #fcfcfc;
 	margin: 0;
 	padding:0;
+}
+
+/* FORMS */
+label{
+	display:block;
 }
