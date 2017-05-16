@@ -11,7 +11,7 @@
 	font-weight : normal;
 }
 		
-#albopopwidget h2, #albopopwidget h2 *{
+#albopopwidget header, #albopopwidget header *{
 	background-color : #ffffb3;
 	color: #101010;
 	font-weight:normal;
