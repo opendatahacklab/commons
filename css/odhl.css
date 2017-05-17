@@ -312,22 +312,34 @@ p.message{
 	border-radius: 0.5em;
 	
 }
-section.announce{
+
+section#announces{
+	margin : 1em auto 1em auto;
+	vertical-align: middle;
+}
+
+section#announces *{
+	vertical-align: middle;
+}
+
+.greenball{
+	display:inline-block;
 	background-color : #73B84B;
 	color: #fcfcfc;
 	font-size : 1.3em;
-	margin: 1em 25% 1em 25%;
+	margin: 1em auto 1em 1em;
 	padding: 1em 1em 1em 1em;
 	border-radius: 1em;
+	text-align: justify;
+	max-width : 15em;
 }
 
-section.announce p{
-	text-align: justify;
+.greenball p{
 	margin: 0;
 	padding:0;
 }
 
-section.announce a{
+.greenball a{
 	color: #fcfcfc;
 	margin: 0;
 	padding:0;
@@ -336,4 +348,9 @@ section.announce a{
 /* FORMS */
 label{
 	display:block;
+}
+
+/* widget */
+#albopopwidget{
+	display:inline-block;
 }
